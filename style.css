@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: flex;
+}
+
+
+.logo img{
+    width: 53px;
+    padding: 0 20px;
+}
+.navbar{
+    height: 70px;
+    display: flex;
+    align-items:center;
+    justify-content:left;
+    color: black;
+    /* background-color: black; */
+    /* background-size: auto;  */
+}
+.back{
+    /* background: url(bg.jpg); */
+    background-color: #0b3c53;
+    border: 1px solid  #07b0ff;
+    border-radius: 9px;
+    background-size: auto;
+    background-size: cover; 
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    display:inline-block;
+    margin: auto 12px;
+    padding: 15px;
+    font-size: 21px;
+   
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover,.navbar ul li a.active{
+    text-decoration:underline;
+    color: #07b0ff;
+}
+.rightNav{
+    width: 30%;
+    text-align: right;
+    padding: 0 183px;
+}
+.btn-sm{
+    padding: 0 9px;
+    width: 80px;
+    height: 37px;
+    font-size: 19px;
+    border: 3px solid #07b0ff;
+    border-radius: 9px;
+    cursor: pointer;
+}
+#search{
+    width: 299px;
+   height: 31px;
+   font-size: 22px;
+   border: 3px solid #07b0ff;
+   border-radius: 9px;
+   margin: 0px 0;
+   padding: 0px 7px
+}
+.section{
+    height: 584px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+    margin: auto;
+}
+.background{
+    width: 136%;
+    background-color: #0b3c53;
+    /* background: url(bg.jpg); */
+    background-size: auto;
+    background-size: cover;
+}
+.sectionTag{
+    font-size: 30px;
+    color: rgb(250, 56, 8);
+}
+.sectionsubTag{
+    font-size: 20px;
+    color: #07b0ff;
+}
+.form{
+    margin: 12px 1px;
+}
+#name{
+    padding: 6px 7px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 2px solid#07b0ff;
+}
+#email{
+    margin: 10px 0px;
+    padding: 6px 7px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 2px solid #07b0ff;
+}
+.btn{
+    padding: 0 1px;
+    width: 65px;
+    height: 33px;
+    font-size: 16px;
+    border: 2px solid #07b0ff;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.thumbanil img{
+    border: 2px solid #07b0ff;
+    width: 335px;
+    border-radius: 25px;
+}
